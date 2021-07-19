@@ -1,0 +1,100 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.cover img {
+  width: 100%;
+}
+
+.logo img {
+  width: 5%;
+  position: absolute;
+  top: 26%;
+  left: 45%;
+  transition: 1s;
+}
+
+.logo img:hover {
+  transform: scale(1.2);
+}
+
+h1 {
+  font-family: sans-serif;
+  position: absolute;
+  top: 5%;
+  left: 8%;
+  color: #fff;
+}
+
+span {
+  color: #F9B208;
+}
+
+.contact i {
+  color: #fff;
+  padding-left: 2%;
+  padding-top: 1%;
+  position: absolute;
+  left: 85%;
+  top: 7%;
+}
+
+.far {
+  padding-left: 5%;
+  margin-left: 5%;
+}
+
+.contact i:hover {
+  transform: scale(1.2);
+  color: #FA9905;
+}
+
+.contact p {
+  color: #fff;
+  font-size: 1em;
+  position: relative;
+  left: 44.5%;
+  padding-top: 0.5%;
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width:700px) {
+  body {
+    background-image: url('mobile.jpg');
+    background-size: cover;
+    background-repeat:repeat-y;
+
+  }
+
+  .cover img {
+    width: 0;
+  }
+
+  .logo img {
+    width: 10%;
+    position: absolute;
+    top: 2%;
+    left: 15%;
+  }
+
+  .contact i {
+    color: #fff;
+    padding-left: 2%;
+    padding-top: 1%;
+    position: absolute;
+    left: 75%;
+    top: 7%;
+  }
+
+  .far {
+    padding-left: 5%;
+    margin-left: 9%;
+  }
+
+  .contact p {
+    position: relative;
+    left: 75%;
+  }
+}
